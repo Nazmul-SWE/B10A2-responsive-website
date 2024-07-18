@@ -4,9 +4,10 @@
   font-style: normal;  
 }
 
-
+/* Nav Design Start */
 .nav-bg-color{
   background-color: rgba(17, 17, 17, 1.00);
+  color: rgba(255, 255, 255, 1.00);;
 }
 nav{
   display: flex;
@@ -28,7 +29,6 @@ nav{
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 39px;
   font-size: 1.2rem;
-
   align-items: center;
 }
 .home-btn{
@@ -38,9 +38,58 @@ nav{
   border: none;
   color: rgba(255, 255, 255, 1.00);
   padding: 18px 20px;
-  text-align: start;
 }
 nav ul li{
   list-style: none;
   margin-right: 47px;
+}
+/* Nav design End */
+/* Shared items */
+.dark3{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+
+
+/* Banner design part start */
+.banner{
+  display: flex;
+  width: 75%;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+.banner-description{
+ 
+}
+.banner-title{
+  font-size: 4.8rem;
+}
+.banner-btn1{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1.00); 
+  border-radius:42px ;
+  padding: 16px 46.5px;
+  background-color: rgba(230, 83, 60, 1);
+  border: none;
+  margin-top: 28px;
+  margin-bottom: 77px;
+}
+.banner-btn2{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1.00); 
+  border-radius:42px ;
+  padding: 16px 46.5px;
+  background-color:  rgba(17, 17, 17, 1.00);
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-top: 28px;
+  margin-left: 14px;
+  margin-bottom: 77px;
+  
+}
+.banner-image-part{
+  width: 24%;
 }
