@@ -21,6 +21,7 @@ nav{
   color: rgba(230, 83, 60, 1.00);
   font-size: 3rem;
   font-weight:900;
+    width: 100%;
   
 }
 .ul-design{
@@ -61,12 +62,22 @@ nav ul li{
   justify-content: space-between;
 }
 .banner-description{
- 
+ width: 50%;
 }
 .banner-title{
+  width: 34%;
   font-size: 4.8rem;
+  width: 75%;
+}
+.banner-btn-container{
+  /* width: 24%; */
+ display: flex;
+ justify-content: space-between;
+ width: 90%;
 }
 .banner-btn1{
+  width: 42%;
+  /* height: 65px; */
   font-size: 1.1rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 1.00); 
@@ -78,6 +89,8 @@ nav ul li{
   margin-bottom: 77px;
 }
 .banner-btn2{
+  width: 42%;
+  /* height: 65px; */
   font-size: 1.1rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 1.00); 
@@ -91,5 +104,187 @@ nav ul li{
   
 }
 .banner-image-part{
-  width: 24%;
+  /* width: 24%; */
 }
+.uper-img-design1{
+  /* margin: 125px -74px 357px 230px; */
+  /* Rectangle 13 */
+/* 
+width: 193px;
+height: 98px;
+left: 1107px;
+top: 260px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1); */
+}
+
+
+/* change-your-habits */
+.change-your-habits{
+ width: 75%;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 0px auto;
+}
+.change-your-habits-card-section{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+
+.habit-card-image{
+  border-radius: 360px;
+}
+/* run-an-extra section */
+
+.run-an-extra{
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color:rgba(34, 34, 34, 1);
+  padding: 25px;
+  border-radius: 30px;
+}
+.run-image-part{
+  width: 40%;
+}
+.run-bg-img{
+  width: 100%;
+  border-radius: 30px;
+}
+/* Tranings-and-expercies-paart */
+.Tranings-and-expercies-paart{
+  width: 75%;
+  margin: auto;
+}
+.Tranings-and-expercies-images-part{
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.tranings-image{
+
+}
+.individual-image{
+  width: 100%; 
+  height: 100%;
+}
+
+
+
+
+/* BMI Calculator */
+.bmi-calculator-description-part{
+  width: 65%;
+  margin: auto;
+
+  
+}
+.bg-color{
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);
+}
+.calculator-chart{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  
+}
+
+
+
+
+/* meet-our-team part */
+.meet-our-team{
+  width: 75%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 30px;
+}
+.meet-our-team-images-section{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+}
+.meet-our-team-image{
+  width: 90%;
+  height: 95%;
+  padding: 15px;
+  border-radius: 30px;
+}
+.anything{
+margin-top: -100px;
+}
+
+
+
+/* Footer part */
+.footer-part{
+  background-color: rgba(34, 34, 34, 1);
+  margin-top: 30px;
+  width: 100%;
+}
+.get-started{
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+  
+}
+
+.last-part{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* Responsive part */
+@media screen and (max-width:576px) {
+  
+  .run-an-extra,
+  .get-started{
+    flex-direction: column;
+  }
+  .ul-design{
+   display: none;
+  }
+  .banner-description{
+    width: 60%;
+   }
+   .banner-title{
+    font-size:2rem;
+  }
+  .run-image-part{
+    width: 85%;
+    
+  }
+  .banner{
+width: 95%;
+flex-direction: column;
+  }
+  .run-bg-img{
+    width: 110%;
+  }
+  .banner-btn1{
+    width: 80%;
+  }
+  .change-your-habits-card-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .meet-our-team-images-section{
+      display: grid;
+      grid-template-columns: repeat(1,6fr);
+    }
+    
+  
+}
+
