@@ -205,43 +205,76 @@ font-size: 14px;
 font-weight:400px ;
 color: rgba(255, 255, 255, 0.5);
 }
+
+
 /* run-an-extra section */
 
 .run-an-extra{
   display: flex;
   width: 75%;
+  height: 371px;
   margin: 0 auto;
   justify-content: space-between;
   background-color:rgba(34, 34, 34, 1);
   padding: 25px;
-  border-radius: 30px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
 }
-.run-image-part{
-  width: 40%;
-}
+
 .run-bg-img{
-  width: 100%;
-  border-radius: 30px;
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  background: url(4);
 }
+.run-description{
+margin: auto;
+margin-left: 54px;
+}
+
+
 /* Tranings-and-expercies-paart */
 .Tranings-and-expercies-paart{
   width: 75%;
   margin: auto;
 }
 .Tranings-and-expercies-images-part{
-  width: 75%;
+  width: 1060px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
-.tranings-image{
 
+.individual-image1{
+  width: 250px; 
+  height: 100%;
+  
 }
-.individual-image{
-  width: 100%; 
+.individual-image2{
+  width: 530px; 
+  height: 100%;
+}
+.individual-image3{
+  width:280px; 
+  height: 100%;
+}
+.individual-image4{
+  width:424px; 
+  height: 100%;
+}
+.individual-image5{
+  width: 265px; 
+  height: 100%;
+}
+.individual-image6{
+  width: 371px; 
   height: 100%;
 }
 
 
+.Tranings-and-expercies-description-subtitle{
+  margin-top: 14px;
+  margin-bottom: 58px;
+}
 
 
 /* BMI Calculator */
@@ -320,7 +353,7 @@ margin-top: -100px;
     
     
   }
-  .run-an-extra,
+
   .get-started,
   .calculator-chart{
     flex-direction: column;
@@ -368,24 +401,65 @@ margin-top: -100px;
   .change-your-habits{
     margin-top: 400px;
   }
+  .banner{
+    width: 95%;
+    flex-direction: column;
+      }
+      .banner-description{
+        width: 352px;
+      }
+      .run-bg-img{
+        width: 110%;
+      }
+      .banner-btn1{
+        width: 80%;
+      }
+  .run-an-extra{
+    flex-direction: column;
+    height: 560px;
+
+  }
+  
   .run-image-part{
     width: 85%;
     
   }
-  .banner{
-width: 95%;
-flex-direction: column;
-  }
-  .banner-description{
-    width: 352px;
-  }
   .run-bg-img{
-    width: 110%;
-  }
-  .banner-btn1{
-    width: 80%;
+    width: 287px;
+    height: 170px;
+    margin-bottom: 35px;
   }
 
+ 
+  .Tranings-and-expercies-images-part{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .individual-image3,
+  .individual-image6{
+    display: none;
+  }
+
+  .individual-image1{
+    width: 170px; 
+    height: 100%;
+    
+  }
+  .individual-image2{
+    width: 140px; 
+    height: 100%;
+  }
+  
+  .individual-image4{
+    width: 140px; 
+    height: 100%;
+  }
+  .individual-image5{
+    width: 170px;  
+    height: 100%;
+  }
+  
   .change-your-habits-card-section{
     display: grid;
     grid-template-columns: repeat(1,1fr);
