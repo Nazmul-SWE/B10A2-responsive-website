@@ -3,6 +3,11 @@
   font-optical-sizing: auto;
   font-style: normal;  
 }
+.metal-regular {
+  font-family: "Metal", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Nav Design Start */
 .nav-bg-color{
@@ -65,21 +70,23 @@ nav ul li{
   justify-content: space-between;
 }
 .banner-description{
- width: 50%;
+ width: 450px;
+ justify-content: start;
 }
 .banner-title{
   width: 34%;
   font-size: 4.8rem;
   width: 75%;
+  display: inline;
 }
 .banner-btn-container{
   /* width: 24%; */
  display: flex;
  justify-content: space-between;
- width: 90%;
+ width: 100%;
 }
 .banner-btn1{
-  width: 42%;
+  width: 224px;
   /* height: 65px; */
   font-size: 1.1rem;
   font-weight: 500;
@@ -92,7 +99,7 @@ nav ul li{
   margin-bottom: 77px;
 }
 .banner-btn2{
-  width: 42%;
+  width: 224px;
   /* height: 65px; */
   font-size: 1.1rem;
   font-weight: 500;
@@ -108,7 +115,9 @@ nav ul li{
 }
 .banner-image-part{
 margin: auto;
+margin-top: -5px;
 }
+
 .uper-img-design1{
 
 width: 193px;
@@ -134,9 +143,10 @@ backdrop-filter: blur(20px);
 background: rgba(48, 48, 48, 0.54);
 align-items: center;
 
+
 }
 .uper-img-title1{
-  font-size: 30px;
+  font-size: 1.9rem;
  margin-top: 5px;
 }
 .uper-img-subtitle1{
@@ -293,20 +303,49 @@ margin-top: -100px;
 @media screen and (max-width:576px) {
   
   .run-an-extra,
-  .get-started{
+  .get-started,
+  .calculator-chart{
     flex-direction: column;
   }
-  .icon-for-min-div{
+  .ul-design{
+    display: none;
+   }
+   .icon-for-min-div{
     display: flex;
   }
-  .ul-design{
-   display: none;
+  .nav-title{
+    font-size: 2rem;
+  }
+  .banner-btn1,
+  .banner-btn2{
+    width: 150px;
+    font-size: 0.9rem;
+  }
+
+  .banner-image-part{
+    width: 100%;
+  }
+  .uper-img-title1{
+    font-size: 1.5rem;
+  }
+  .uper-img-design1{
+    width: 160px;
+    height: 78px;
+    margin: -550px 10px 125px 200px;
+    }
+    .uper-img-design2{
+      width: 180px;
+      height: 105px;
+      
+    }
+  .banner-title{
+    font-size: 3rem;
   }
   .banner-description{
-    width: 60%;
+    width: 100%;
    }
    .banner-title{
-    font-size:2rem;
+    font-size:2.5rem;
   }
   .run-image-part{
     width: 85%;
@@ -316,12 +355,17 @@ margin-top: -100px;
 width: 95%;
 flex-direction: column;
   }
+  .banner-description{
+    width: 352px;
+  }
   .run-bg-img{
     width: 110%;
   }
   .banner-btn1{
     width: 80%;
+    padding: 10px 10px;
   }
+
   .change-your-habits-card-section{
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -338,4 +382,7 @@ flex-direction: column;
 
 .boder-test{
   border: 1px solid tomato;
+}
+.widthh{
+  width: 90%;
 }
