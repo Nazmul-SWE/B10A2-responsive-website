@@ -8,7 +8,18 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.share-title{
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900px;
+  
+}
+.share-subtitle{
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 200;
+ 
+}
 /* Nav Design Start */
 .nav-bg-color{
   background-color: rgba(17, 17, 17, 1.00);
@@ -150,21 +161,10 @@ align-items: center;
  margin-top: 5px;
 }
 .uper-img-subtitle1{
-
-/* position: absolute;
-width: 193px;
-height: 98px;
-margin: -400px -74px 125px 250px;
-box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-padding-left:24px ; */
 font-size: 13px;
 font-weight: 200;
 }
+
 .circle{
   border-radius: 360px;
 width: 40px;
@@ -181,7 +181,12 @@ align-items: center;
 justify-content: center;
 text-align: center;
 margin: 0px auto;
-margin-top: 100px;
+margin-top: 100px;  
+margin-bottom:100px;
+}
+.sub-title{
+  margin-top: 14px;
+  margin-bottom: 58px;
 }
 .change-your-habits-card-section{
 display: grid;
@@ -190,6 +195,15 @@ grid-template-columns: repeat(4,1fr);
 
 .habit-card-image{
   border-radius: 360px;
+}
+.habit-card-title{
+font-size: 18px;
+font-weight: 600px;
+}
+.habit-card-subtitle{
+font-size: 14px;
+font-weight:400px ;
+color: rgba(255, 255, 255, 0.5);
 }
 /* run-an-extra section */
 
@@ -301,7 +315,11 @@ margin-top: -100px;
 
 /* Responsive part */
 @media screen and (max-width:576px) {
-  
+  .share-title{
+    font-size: 2rem;
+    
+    
+  }
   .run-an-extra,
   .get-started,
   .calculator-chart{
@@ -347,6 +365,9 @@ margin-top: -100px;
    .banner-title{
     font-size:2.5rem;
   }
+  .change-your-habits{
+    margin-top: 400px;
+  }
   .run-image-part{
     width: 85%;
     
@@ -363,7 +384,6 @@ flex-direction: column;
   }
   .banner-btn1{
     width: 80%;
-    padding: 10px 10px;
   }
 
   .change-your-habits-card-section{
