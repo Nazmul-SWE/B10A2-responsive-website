@@ -73,7 +73,7 @@
     <section>
       <div class="change-your-habits">
         <h3 class="habit-title share-title">Change Your Habits</h3>
-        <p class="sub-title share-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless
+        <p class="sub-titleee">We believe fitness should be accessible to everyone, everywhere, regardless
           of income or
           access to a gym</p>
         <div class="change-your-habits-card-section">
@@ -126,7 +126,7 @@
     <!-- Trainings and Exercises -->
     <section>
       <div class="Tranings-and-expercies-paart">
-        
+
         <div class="Tranings-and-expercies-description-part">
           <h3 class="Tranings-and-expercies-description-title share-title">Trainings and Exercises</h3>
           <p class="Tranings-and-expercies-description-subtitle share-subtitle">We believe fitness should be accessible
@@ -177,40 +177,55 @@
             <h3 class="bmi-title">BMI Calculator Chart</h3>
             <table border="1">
               <tr>
-                <th>BMI </th>
-                <th>Weight Status</th>
+                <th class="table-head">BMI</th>
+                <th class="table-head">Weight Status</th>
               </tr>
               <tr>
-                <td>Below 18.5</td>
-                <td>Underweight</td>
+                <td class="table-data">Below 18.5</td>
+                <td class="table-data">Underweight</td>
               </tr>
               <tr>
-                <td>18.5 - 24.9</td>
-                <td>Healthy</td>
+                <td class="table-data">18.5 - 24.9</td>
+                <td class="table-data">Healthy</td>
               </tr>
               <tr>
-                <td>25.0 - 29.9</td>
-                <td>Overweight</td>
+                <td class="table-data">25.0 - 29.9</td>
+                <td class="table-data">Overweight</td>
               </tr>
               <tr>
-                <td>30.0 - and Above</td>
-                <td>Obese</td>
+                <td class="table-data">30.0 - and Above</td>
+                <td class="table-data">Obese</td>
               </tr>
             </table>
           </div>
           <div class="calculate-your-bmi">
             <h3 class="bmi-title">Calculate your BMI</h3>
-            <p class="bmi-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of
+            <p class="bmi-calculator-description-subtitle">We believe fitness should be accessible to everyone,
+              everywhere, regardless of
               income or access to a gym. </p>
-            <form action="">
-              <input type="number" placeholder="Height/cm" class="calculate-small-form">
-              <input type="number" placeholder="Weight/kg" class="calculate-small-form">
-              <br>
-              <input type="number" placeholder="Age" class="calculate-small-form">
-              <select name="sex" id=""></select>
-              <br>
-              <input type="email" name="" id="">
-            </form>
+            <div>
+              <form action="">
+                <input type="number" placeholder="Height/cm" class="calculate-small-form">
+                <input type="number" placeholder="Weight/kg" class="calculate-small-form">
+                <br>
+                <input type="number" placeholder="Age" class="calculate-small-form">
+                <select class="small-color calculate-small-form">
+                  <option value="volvo">Sex</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <br>
+                <select class="calculate-big-form">
+                  <option value="volvo">Select an activity factor</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+
+
+              </form>
+            </div>
             <button class="banner-btn1">Calculate</button>
           </div>
         </div>
@@ -225,15 +240,36 @@
           income or
           access to a gym</p>
         <div class="meet-our-team-images-section">
-          <div>
+          <div class="meet-our-team-image-div">
             <img src="images/trainer1.png" alt="" class="meet-our-team-image">
-            <h3 class="anything">Hi</h3>
+            <h3 class="trainer-name">Jerome Bell</h3> 
+            <p class="trainer-quality">Trainer</p>      
           </div>
-          <img src="images/trainer2.png" alt="" class="meet-our-team-image">
-          <img src="images/trainer3.png" alt="" class="meet-our-team-image">
-          <img src="images/trainer4.png" alt="" class="meet-our-team-image">
-          <img src="images/trainer5.png" alt="" class="meet-our-team-image">
-          <img src="images/trainer6.png" alt="" class="meet-our-team-image">
+          <div class="meet-our-team-image-div">
+            <img src="images/trainer2.png" alt="" class="meet-our-team-image">
+            <h3 class="trainer-name">Cameron Williamson </h3>
+            <p class="trainer-quality">Trainer</p> 
+          </div>
+          <div class="meet-our-team-image-div">
+            <img src="images/trainer3.png" alt="" class="meet-our-team-image">
+            <h3 class="trainer-name">Darrell Steward</h3>   
+            <p class="trainer-quality">Trainer</p>        
+          </div>
+          <div class="meet-our-team-image-div">
+            <img src="images/trainer4.png" alt="" class="meet-our-team-image">
+            <h3 class="trainer-name">Dianne Russell</h3>
+            <p class="trainer-quality">Trainer</p> 
+          </div>
+          <div class="meet-our-team-image-div">
+            <img src="images/trainer5.png" alt="" class="meet-our-team-image">
+            <h3 class="trainer-name">Cody Fisher</h3>
+            <p class="trainer-quality">Trainer</p> 
+          </div>
+          <div class="meet-our-team-image-div">
+            <img src="images/trainer6.png" alt="" class="meet-our-team-image">
+            <h3 class="trainer-name">Theresa Webb <span></span></h3>
+            <p class="trainer-quality">Trainer</p> 
+          </div>
         </div>
       </div>
     </section>
@@ -242,9 +278,7 @@
   <footer class="footer-part">
     <div class="get-started">
       <div class="get-started-brand">
-        <h1 class="brand-title">
-          Fitness
-        </h1>
+        <h1 class="brand-title"><i>Fitness</i></h1>
         <p class="brand-sub-title">
           Fitness
           We believe fitness should be accessible to everyone,<br>
@@ -268,7 +302,7 @@
       </div>
     </div>
     <div class="last-part">
-      <hr>
+      <hr class="horizantal-line">
       <p class="last-part-subtitle">All right reserved @Fitness 2024</p>
     </div>
     <br><br>

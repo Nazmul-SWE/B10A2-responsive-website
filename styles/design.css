@@ -206,9 +206,11 @@ nav ul li {
   margin-bottom: 100px;
 }
 
-.sub-title {
+.sub-titleee {
   margin-top: 14px;
   margin-bottom: 58px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 200;
 }
 
 .change-your-habits-card-section {
@@ -218,6 +220,7 @@ nav ul li {
 
 .habit-card-image {
   border-radius: 360px;
+  border: 5px solid rgba(255, 255, 255, 0.1);
 }
 
 .habit-card-title {
@@ -324,20 +327,11 @@ nav ul li {
   font-weight: 500px;
 }
 
-.individual-text3 {}
-
-.individual-text4 {}
-
-.individual-text5 {}
-
-.individual-text6 {}
 
 /* BMI Calculator */
 .bmi-calculator-description-part {
-  width: 65%;
+  width: 75%;
   margin: auto;
-
-
 }
 
 .bg-color {
@@ -353,7 +347,62 @@ nav ul li {
 
 }
 
+.calculate-small-form {
+  width: 282.5px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
 
+.calculate-big-form {
+  width: 600px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  
+  margin-bottom: 34px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+
+.small-color {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  width: 295px;
+}
+
+.bmi-calculator-description-subtitle{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.bmi-title{
+  font-size: 34px;
+}
+
+.table-head{
+  font-size:16px ;
+  font-weight: 300;
+  padding-left: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.table-data{
+  font-size: 14px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 50%;
+  padding-left: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-right: 24px;
+}
 
 
 /* meet-our-team part */
@@ -363,27 +412,51 @@ nav ul li {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: rgba(34, 34, 34, 1);
-  border-radius: 30px;
+ 
 }
-
+.meet-our-team-image-div{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 18px;
+}
 .meet-our-team-images-section {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 18px;
+  height: 100%;
 }
 
 .meet-our-team-image {
   width: 90%;
   height: 95%;
-  padding: 15px;
-  border-radius: 30px;
+
+  border-radius:18px;
+  padding-bottom: 20px;
+}
+.meet-our-team-title{
+  margin-top: 88px;
+}
+.meet-our-team_subtitle{
+  margin-top: 14px;
+  margin-bottom: 54px;
+  font-size: 14px;
+  font-weight: 200px;
+  color: rgba(255, 255, 255, 0.5);
+
 }
 
-.anything {
+.trainer-name{
   margin-top: -100px;
+  margin-left: -200px;
+  font-size: 20px;
+  font-weight: 700;
 }
-
-
+.trainer-quality{
+  margin-left: -250px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /* Footer part */
 .footer-part {
@@ -397,6 +470,7 @@ nav ul li {
   width: 75%;
   margin: 0 auto;
   justify-content: space-between;
+  margin-bottom: 70px;
 
 }
 
@@ -404,6 +478,34 @@ nav ul li {
   width: 75%;
   margin: 0 auto;
   text-align: center;
+}
+.brand-title{
+  font-size: 70px;
+  font-weight: 900;
+  color: rgba(230, 83, 60, 1);
+}
+.brand-sub-title{
+  font-size: 14px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+}
+.sub-title{
+font-size: 32px;
+font-weight: 700;
+color: rgba(255, 255, 255, 1);
+margin-top: 66px;
+}
+.sub-subtitle{
+font-size: 23px;
+font-weight: 200;
+color: rgba(255, 255, 255, 0.5);
+}
+.horizantal-line{
+  color: rgba(255, 255, 255, 0.1);
+}
+.last-part-subtitle{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -555,27 +657,57 @@ nav ul li {
     font-size: 12px;
 
   }
+  .change-your-habits-card-section {
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+  }
+  
+  .meet-our-team-images-section {
+    display: grid;
+    grid-template-columns: repeat(1, 6fr);
+  }
+  .trainer-name{
+    margin-top: -100px;
+    margin-left: -50px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .trainer-quality{
+    margin-left: -100px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .calculate-small-form {
+    width: 170.5px;
+    height: 45px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .calculate-big-form {
+    width: 170.5px;
+    height: 45px;
+    margin-bottom: 34px;
+    padding-right: 10px;
+  }
+  
+  
+  .small-color {
+    width: 183px;
+  }
 }
 
-.change-your-habits-card-section {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
-
-.meet-our-team-images-section {
-  display: grid;
-  grid-template-columns: repeat(1, 6fr);
-}
-
-
-}
 
 
 
+
+
+/* 
 .boder-test {
   border: 1px solid tomato;
 }
 
 .widthh {
   width: 90%;
-}
+} */
